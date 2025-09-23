@@ -1,0 +1,306 @@
+{
+  "title" : "Wifi",
+  "objects" : [
+    "1",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2"
+  ],
+  "dialogue1" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue2" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue3" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue4" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue5" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue6" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue7" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue8" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue9" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  },
+  "dialogue10" : {
+    "text" : "",
+    "responses" : {
+      "A" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      },
+      "B" : {
+        "responseText" : "",
+        "text" : "",
+        "responses" : {
+          "A" : {
+
+          },
+          "B" : {
+
+          }
+        }
+      }
+    }
+  }
+}

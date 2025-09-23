@@ -1,1 +1,2 @@
-# Staurie_AMDN
+# Murder in the shell
+By Antoine, Nathan, Mourad, David
