@@ -1,15 +1,16 @@
 {
-    "name": "mourad/murder-shell",
-    "autoload": {
-        "psr-4": {
-            "Mourad\\MurderShell\\": "src/"
-        }
+    "name" : "coda/cluedo-game",
+    "autoload" : {
+      "psr-4" : {
+        "App\\" : "src",
+        "App\\Items\\" : "src/items",
+        "App\\Maps\\" : "src/maps",
+        "App\\Ncps\\" : "src/npcs",
+        "App\\Data\\" : "data",
+        "App\\Dialogue\\" : "src/dialogue"
+      }
     },
-    "authors": [
-        {
-            "name": "Mourad9101",
-            "email": "hassis.mourad@gmail.com"
-        }
-    ],
-    "require": {}
+    "require": {
+        "jugid/staurie": "^1.3"
+    }
 }
