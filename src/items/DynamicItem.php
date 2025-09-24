@@ -4,14 +4,13 @@ namespace App\Items;
 
 use Jugid\Staurie\Game\Item;
 
-class MurderItem extends Item {
+class DynamicItem extends Item {
     private string $name;
-    private string $description;
+    private string $description = '';
 
-    public function __construct(string $name, string $description)
+    public function __construct(string $name)
     {
         $this->name = $name;
-        $this->description = $description;
     }
 
     public function name(): string {

@@ -1,12 +1,15 @@
 <?php
 
 use App\Dialogue\Dialogue;
+use App\Items\ItemLoader;
+use App\Npcs\NpcLoader;
 use Jugid\Staurie\Component\Console\Console;
 use Jugid\Staurie\Component\Menu\Menu;
 use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
 use Jugid\Staurie\Component\Map\Map;
+use \Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Staurie;
-use Jugid\Staurie\Container;
+use App\Maps;
 
 require_once __DIR__ . '/vendor/autoload.php';
 define("SRC_DIR", __DIR__);
@@ -20,11 +23,51 @@ $staurie->register([
     Map::class,
 ]);
 
+$scenario = 'scenario' . random_int(1, 3);
+
+$itemLoader = new ItemLoader();
+$itemListNode = $itemLoader->load($scenario);
+
+$npcLoader = new NpcLoader();
+$npcListNode = $npcLoader->load();
+
+$mapsClass = [
+  Maps\Coworking::class,
+  Maps\Fuji::class,
+  Maps\Kilimandjaro::class,
+  Maps\Meteores::class,
+  Maps\Niagara::class,
+  Maps\Offices::class,
+  Maps\Uluru::class,
+];
+
 $container = $staurie->getContainer();
+
+$mapObject = $container->getMap();
+$npcsPlaced = [];
+$itemsPlaced= [];
+
+/*oreach ($mapsClass as $class) {
+    $key = array_rand($npcListNode);
+    $npc = $npcListNode[$key];
+
+    $name = $npc->name();
+
+    $mapClass = new $class();
+
+    var_dump($mapObject->getBlueprint($mapClass->position()));
+
+    if (empty($npcsPlaced[$name])) {
+        $mapObject->getBlueprint($mapClass->position())->npcs[] = $npc;
+        $npcsPlaced[$name] = true;
+    }
+}*/
+
+//$mapObject->getBlueprint(Maps\Corridor::class->position())->npcs[] = 'Hello';
 
 $map = $container->registerComponent(Map::class);
 $map->configuration([
-    'directory' => __DIR__ . '/src/Maps',
+    'directory' => __DIR__ . '/src/maps',
     'namespace' => 'App\Maps',
     'x_start'   => 0,
     'y_start'   => 0,

@@ -8,14 +8,17 @@ use Jugid\Staurie\Game\Position\Position;
 
 class Offices extends Blueprint
 {
+    public array $npcs = [];
+    public array $items = [];
+
     public function npcs(): array
     {
-        return [];
+        return $this->npcs;
     }
 
     public function items(): array
     {
-        return [];
+        return $this->items;
     }
 
     public function monsters(): array

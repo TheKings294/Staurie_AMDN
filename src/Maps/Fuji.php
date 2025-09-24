@@ -5,8 +5,18 @@ use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
 
 class Fuji extends Blueprint {
-    public function npcs(): array { return []; }
-    public function items(): array { return []; }
+    public array $npcs = [];
+    public array $items = [];
+
+    public function npcs(): array
+    {
+        return $this->npcs;
+    }
+
+    public function items(): array
+    {
+        return $this->items;
+    }
     public function monsters(): array { return []; }
 
     public function name(): string{
