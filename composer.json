@@ -1,5 +1,15 @@
 {
-    "require": {
-        "jugid/staurie": "^1.3"
-    }
+    "name": "mourad/murder-shell",
+    "autoload": {
+        "psr-4": {
+            "Mourad\\MurderShell\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mourad9101",
+            "email": "hassis.mourad@gmail.com"
+        }
+    ],
+    "require": {}
 }
