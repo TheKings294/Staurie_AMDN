@@ -1,5 +1,5 @@
 <?php
-namespace Jugid\Staurie\Maps;
+namespace Mourad\MurderShell\Maps;
 
 use Jugid\Staurie\Component\Map\Blueprint;
 use Jugid\Staurie\Game\Position\Position;
