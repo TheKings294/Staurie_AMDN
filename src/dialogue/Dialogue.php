@@ -72,7 +72,7 @@ class Dialogue extends AbstractComponent {
                     $child = $this->buildDialogue($resp);
                 }
 
-                $node->addResponse($key, new DialogueResponse($resp['text'] ?? $key, $child));
+                $node->addResponse($key, new DialogueResponse($resp['responseText'] ?? $key, $child));
             }
         }
 
