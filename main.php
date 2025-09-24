@@ -7,7 +7,6 @@ use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
 use Jugid\Staurie\Component\Map\Map;
 use Jugid\Staurie\Staurie;
 use Jugid\Staurie\Container;
-use Jugid\Staurie\Component\Map\Map;
 
 require_once __DIR__ . '/vendor/autoload.php';
 define("SRC_DIR", __DIR__);
@@ -23,7 +22,7 @@ $staurie->register([
 
 $container = $staurie->getContainer();
 
-$map = $container->registerComponent(Map::class)
+$map = $container->registerComponent(Map::class);
 $map->configuration([
     'directory' => __DIR__ . '/src/Maps',
     'namespace' => 'App\Maps',
