@@ -14,11 +14,11 @@
     "2"
   ],
   "dialogue1" : {
-    "text" : "",
+    "text" : "Hello",
     "responses" : {
       "A" : {
-        "responseText" : "",
-        "text" : "",
+        "responseText" : "Hi",
+        "text" : "I'm the murder",
         "responses" : {
           "A" : {
 
@@ -29,8 +29,8 @@
         }
       },
       "B" : {
-        "responseText" : "",
-        "text" : "",
+        "responseText" : "Good Bye",
+        "text" : "Bye",
         "responses" : {
           "A" : {
 
