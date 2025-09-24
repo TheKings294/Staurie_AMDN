@@ -1,12 +1,12 @@
 <?php
 
-namespace StaurieAMDN\Items;
+namespace App\Items;
 
 use Jugid\Staurie\Game\Item;
 
-class DynamicItem extends Item {
-    private $name;
-    private $description;
+class MurderItem extends Item {
+    private string $name;
+    private string $description;
 
     public function __construct(string $name, string $description)
     {
